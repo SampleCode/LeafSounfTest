@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD42D155145A49CA00C34083 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD42D154145A49CA00C34083 /* UIKit.framework */; };
+		DD42D157145A49CA00C34083 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD42D156145A49CA00C34083 /* Foundation.framework */; };
+		DD42D159145A49CA00C34083 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD42D158145A49CA00C34083 /* CoreGraphics.framework */; };
+		DD42D15F145A49CA00C34083 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD42D15D145A49CA00C34083 /* InfoPlist.strings */; };
+		DD42D161145A49CA00C34083 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD42D160145A49CA00C34083 /* main.m */; };
+		DD42D165145A49CA00C34083 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD42D164145A49CA00C34083 /* AppDelegate.m */; };
+		DD42D168145A49CA00C34083 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD42D167145A49CA00C34083 /* ViewController.m */; };
+		DD42D16B145A49CA00C34083 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD42D169145A49CA00C34083 /* ViewController.xib */; };
+		DD42D172145A49E300C34083 /* leafsound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD42D171145A49E300C34083 /* leafsound.mp3 */; };
+		DD42D176145A4B9900C34083 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD42D175145A4B9900C34083 /* AudioToolbox.framework */; };
+		DD42D178145A4E3E00C34083 /* leafsound.wav in Resources */ = {isa = PBXBuildFile; fileRef = DD42D177145A4E3E00C34083 /* leafsound.wav */; };
+		DD42D17A145A543700C34083 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD42D179145A543700C34083 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD42D150145A49CA00C34083 /* leafSounfTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leafSounfTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD42D154145A49CA00C34083 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD42D156145A49CA00C34083 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD42D158145A49CA00C34083 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD42D15C145A49CA00C34083 /* leafSounfTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "leafSounfTest-Info.plist"; sourceTree = "<group>"; };
+		DD42D15E145A49CA00C34083 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD42D160145A49CA00C34083 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD42D162145A49CA00C34083 /* leafSounfTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "leafSounfTest-Prefix.pch"; sourceTree = "<group>"; };
+		DD42D163145A49CA00C34083 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD42D164145A49CA00C34083 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD42D166145A49CA00C34083 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD42D167145A49CA00C34083 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD42D16A145A49CA00C34083 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		DD42D171145A49E300C34083 /* leafsound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = leafsound.mp3; sourceTree = "<group>"; };
+		DD42D175145A4B9900C34083 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DD42D177145A4E3E00C34083 /* leafsound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = leafsound.wav; sourceTree = "<group>"; };
+		DD42D179145A543700C34083 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD42D14D145A49CA00C34083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD42D17A145A543700C34083 /* AVFoundation.framework in Frameworks */,
+				DD42D176145A4B9900C34083 /* AudioToolbox.framework in Frameworks */,
+				DD42D155145A49CA00C34083 /* UIKit.framework in Frameworks */,
+				DD42D157145A49CA00C34083 /* Foundation.framework in Frameworks */,
+				DD42D159145A49CA00C34083 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD42D145145A49CA00C34083 = {
+			isa = PBXGroup;
+			children = (
+				DD42D171145A49E300C34083 /* leafsound.mp3 */,
+				DD42D177145A4E3E00C34083 /* leafsound.wav */,
+				DD42D15A145A49CA00C34083 /* leafSounfTest */,
+				DD42D153145A49CA00C34083 /* Frameworks */,
+				DD42D151145A49CA00C34083 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD42D151145A49CA00C34083 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD42D150145A49CA00C34083 /* leafSounfTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD42D153145A49CA00C34083 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD42D179145A543700C34083 /* AVFoundation.framework */,
+				DD42D175145A4B9900C34083 /* AudioToolbox.framework */,
+				DD42D154145A49CA00C34083 /* UIKit.framework */,
+				DD42D156145A49CA00C34083 /* Foundation.framework */,
+				DD42D158145A49CA00C34083 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD42D15A145A49CA00C34083 /* leafSounfTest */ = {
+			isa = PBXGroup;
+			children = (
+				DD42D163145A49CA00C34083 /* AppDelegate.h */,
+				DD42D164145A49CA00C34083 /* AppDelegate.m */,
+				DD42D166145A49CA00C34083 /* ViewController.h */,
+				DD42D167145A49CA00C34083 /* ViewController.m */,
+				DD42D169145A49CA00C34083 /* ViewController.xib */,
+				DD42D15B145A49CA00C34083 /* Supporting Files */,
+			);
+			path = leafSounfTest;
+			sourceTree = "<group>";
+		};
+		DD42D15B145A49CA00C34083 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD42D15C145A49CA00C34083 /* leafSounfTest-Info.plist */,
+				DD42D15D145A49CA00C34083 /* InfoPlist.strings */,
+				DD42D160145A49CA00C34083 /* main.m */,
+				DD42D162145A49CA00C34083 /* leafSounfTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD42D14F145A49CA00C34083 /* leafSounfTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD42D16E145A49CA00C34083 /* Build configuration list for PBXNativeTarget "leafSounfTest" */;
+			buildPhases = (
+				DD42D14C145A49CA00C34083 /* Sources */,
+				DD42D14D145A49CA00C34083 /* Frameworks */,
+				DD42D14E145A49CA00C34083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leafSounfTest;
+			productName = leafSounfTest;
+			productReference = DD42D150145A49CA00C34083 /* leafSounfTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD42D147145A49CA00C34083 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DD42D14A145A49CA00C34083 /* Build configuration list for PBXProject "leafSounfTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD42D145145A49CA00C34083;
+			productRefGroup = DD42D151145A49CA00C34083 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD42D14F145A49CA00C34083 /* leafSounfTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD42D14E145A49CA00C34083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD42D15F145A49CA00C34083 /* InfoPlist.strings in Resources */,
+				DD42D16B145A49CA00C34083 /* ViewController.xib in Resources */,
+				DD42D172145A49E300C34083 /* leafsound.mp3 in Resources */,
+				DD42D178145A4E3E00C34083 /* leafsound.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD42D14C145A49CA00C34083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD42D161145A49CA00C34083 /* main.m in Sources */,
+				DD42D165145A49CA00C34083 /* AppDelegate.m in Sources */,
+				DD42D168145A49CA00C34083 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD42D15D145A49CA00C34083 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD42D15E145A49CA00C34083 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD42D169145A49CA00C34083 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD42D16A145A49CA00C34083 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD42D16C145A49CA00C34083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD42D16D145A49CA00C34083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD42D16F145A49CA00C34083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "leafSounfTest/leafSounfTest-Prefix.pch";
+				INFOPLIST_FILE = "leafSounfTest/leafSounfTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD42D170145A49CA00C34083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "leafSounfTest/leafSounfTest-Prefix.pch";
+				INFOPLIST_FILE = "leafSounfTest/leafSounfTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD42D14A145A49CA00C34083 /* Build configuration list for PBXProject "leafSounfTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD42D16C145A49CA00C34083 /* Debug */,
+				DD42D16D145A49CA00C34083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD42D16E145A49CA00C34083 /* Build configuration list for PBXNativeTarget "leafSounfTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD42D16F145A49CA00C34083 /* Debug */,
+				DD42D170145A49CA00C34083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD42D147145A49CA00C34083 /* Project object */;
+}
